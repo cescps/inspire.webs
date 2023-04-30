@@ -1,0 +1,36 @@
+body
+  min-height: 100vh
+  font-family: 'Poppins', sans-serif
+  display: flex
+  justify-content: center
+  align-items: center
+  background: white
+  
+*
+  box-sizing: border-box 
+ 
+.btn-candy
+  position: relative
+  text-decoration: none
+  padding: 12px 36px
+  background: radial-gradient(95% 60% at 50% 75%, #005FD6 0%, #209BFF 100%)
+  border: 1px solid #54A1FD
+  box-shadow: 0px 4px 48px -12px #1187FF, inset 0px 1px 8px -4px #FFFFFF
+  border-radius: 12px
+  color: white
+  font-size: 16px
+  line-height: 22px
+  font-weight: 600
+  letter-spacing: .02em
+  transition: all .2s ease
+  -webkit-tap-highlight-color: rgba(255,255,255,0)
+  &:after
+    content: ''
+    position: absolute
+    width: 60%
+    height: 1px
+    background: linear-gradient(to right, rgba(white,0), rgba(white,.5), rgba(white,0))
+    top: 1px
+    right: 10%
+  &:active
+    transform: scale(.98) rotate(1deg)
