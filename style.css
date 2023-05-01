@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  font-family: 'Anton', sans-serif
+  font-family: 'Anton', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,8 +19,7 @@ body {
   text-decoration: none;
   padding: 12px 36px;
   background: #6d6d6d;
-  border: 1px solid #54A1FD;
-  box-shadow: 0px 4px 48px -12px #1187FF, inset 0px 1px 8px -4px #FFFFFF;
+  border: 1px solid #6d6d6d;
   border-radius: 12px;
   color: white;
   font-size: 16px;
