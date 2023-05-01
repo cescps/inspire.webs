@@ -15,7 +15,7 @@ body {
   position: relative;
   text-decoration: none;
   padding: 12px 36px;
-  background: radial-gradient(95% 60% at 50% 75%, #fff0b2 0%, #ffd19c 100%);
+  background: #6d6d6d;
   border: 1px solid #54A1FD;
   box-shadow: 0px 4px 48px -12px #1187FF, inset 0px 1px 8px -4px #FFFFFF;
   border-radius: 12px;
